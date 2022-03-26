@@ -1,0 +1,30 @@
+h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.numero_ejercicios {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 20%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "a1 a2 a3 a4 a5";
+}
+
+.a1 {
+    grid-area: a1;
+    margin-left: 15px;
+}
+.a2 {
+    grid-area: a2;
+}
+.a3 {        
+    grid-area: a3;
+}
+.a4 {
+    grid-area: a4;
+}
+.a5 {
+    grid-area: a5;
+}
